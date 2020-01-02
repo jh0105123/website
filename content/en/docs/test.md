@@ -1,6 +1,6 @@
 ---
-title: Docs smoke test page
-main_menu: false
+title: Markdown
+main_menu: true
 ---
 
 This page serves two purposes:
@@ -271,7 +271,7 @@ but at least three `-` characters. For ease of maintenance, try to keep all the
 cell separators even, even if you heed to use extra space.
 
 | Heading cell 1 | Heading cell 2 |
-|----------------|----------------|
+| -------------- | -------------- |
 | Body cell 1    | Body cell 2    |
 
 The header is optional. Any text separated by `|` will render as a table.

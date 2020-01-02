@@ -1,12 +1,7 @@
 ---
-reviewers:
-- lavalamp
-title: Kubernetes Components
+title: Cloud Providers
 content_template: templates/concept
-weight: 20
-card: 
-  name: concepts
-  weight: 20
+weight: 30
 ---
 
 {{% capture overview %}}
@@ -24,7 +19,6 @@ Here's the diagram of a Kubernetes cluster with all the components tied together
 
 {{% capture body %}}
 ## Master Components
-
 Master components provide the cluster's control plane. Master components make global decisions about the
 cluster (for example, scheduling), and they detect and respond to cluster events (for example, starting up a new {{< glossary_tooltip text="pod" term_id="pod">}} when a deployment's `replicas` field is unsatisfied).
 

@@ -23,6 +23,7 @@ Here's the architecture of a Kubernetes cluster without the cloud controller man
 
 ## Design
 
+
 In the preceding diagram, Kubernetes and the cloud provider are integrated through several different components:
 
 * Kubelet

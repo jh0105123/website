@@ -152,7 +152,7 @@ implementation for Kubernetes supports the use of these OpenStack services from
 the underlying cloud, where available:
 
 | Service                  | API Version(s) | Required |
-|--------------------------|----------------|----------|
+| ------------------------ | -------------- | -------- |
 | Block Storage (Cinder)   | V1†, V2, V3    | No       |
 | Compute (Nova)           | V2             | No       |
 | Identity (Keystone)      | V2‡,  V3       | Yes      |
@@ -382,6 +382,8 @@ If you are running vSphere < 6.7U3, the in-tree vSphere cloud provider is recomm
 {{< /tabs >}}
 
 For in-depth documentation on the vSphere cloud provider, visit the [vSphere cloud provider docs site](https://cloud-provider-vsphere.sigs.k8s.io).
+
+{{< iframe src="/images/docs/Docker/chapter3/Summary.mp4">}}
 
 ## IBM Cloud Kubernetes Service
 
