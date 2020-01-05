@@ -5,6 +5,10 @@ reviewers:
 title: Ch 00. Summary
 content_template: templates/concept
 weight: 10
+card:
+  name: tech
+  weight: 10
+  title: Docker
 ---
 {{% capture overview %}}
   Summary

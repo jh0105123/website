@@ -4,21 +4,25 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36037335-10"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'UA-36037335-10');
 </script>
 <meta charset="utf-8">
-<title>{{ if .Title }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
+<!-- <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ site.Title }}</title> -->
+<title>역량 강화 시스템 - /wi:/ki</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/png" href="{{ "images/favicon.png" | relURL }}">
 {{ partial "css.html" . }}
 <!-- Content for social media sharing previews -->
 <!-- Facebook uses the og: stuff, while Twitter and others use twitter: -->
-<meta name="description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-<meta property="og:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
-<meta name="twitter:description" content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+<meta name="description"
+  content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+<meta property="og:description"
+  content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
+<meta name="twitter:description"
+  content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Summary }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ if .Params.title }}{{ .Title }}{{ else }}{{ .Summary | truncate 10 }}{{ end }}">
 <meta name="twitter:title" content="{{ if .Params.title }}{{ .Title }}{{ else }}{{ .Summary | truncate 10 }}{{ end }}">
@@ -41,5 +45,7 @@
 
 <script src="{{ "js/script.js" | relURL }}"></script>
 <script src="{{ "js/custom-jekyll/tags.js" | relURL }}"></script>
-{{ with .Params.js }}{{ range (split . ",") }}<script src="{{ (trim . " ") | relURL }}"></script><!-- custom js added -->
-{{ end }}{{ else }}<!-- no custom js detected -->{{ end }}
+{{ with .Params.js }}{{ range (split . ",") }}
+<script src="{{ (trim . " ") | relURL }}"></script><!-- custom js added -->
+{{ end }}{{ else }}
+<!-- no custom js detected -->{{ end }}
