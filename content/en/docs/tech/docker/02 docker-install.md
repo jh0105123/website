@@ -30,7 +30,9 @@ weight: 10
 - Windows 10 이후에 이용 가능하다.(Windows 10 미만은 Docker ToolBox를 사용한다.)
 - Microsoft가 제공하는 하이퍼바이저인 x64용 가상화 시스템인 `Hyper-V`를 사용한다.
 - Hyper-V를 활성화하면 Oracle VirtualBox 등과 같은 다른 가상화 툴은 사용할 수 없다.
+{{% /capture %}}
 
+{{<iframe src="/images/docs/Docker/chapter2/Summary.mp4">}}
 ## 2. Docker 설치하기
 
 # [**Windows 10 이후**](#tab/tabid-1)
@@ -496,4 +498,6 @@ Run 'docker COMMAND --help' for more information on a command.
 >    - DOCKER_HOST
 >    - DOCKER_TOOLBOX_INSTALL_PATH<br>   
 >       ![설치](/images/docs/Docker/chapter2/2_19.JPG)
-{{% /capture %}}
+
+
+{{<iframe src="/images/docs/Docker/chapter2/Summary.mp4">}}

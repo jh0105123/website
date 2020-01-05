@@ -14,15 +14,22 @@ The Concepts section helps you learn about the parts of the Kubernetes system an
 {{% capture body %}}
 
 ## Overview
-Tech index.
+hello
+- **`monospace bold`**
+- {{<color value="red" text="중요">}}
 
-
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: myapp-container
+    image: busybox
+    command: ['sh', '-c', 'echo Hello Kubernetes! && sleep 3600']
+```
 {{% /capture %}}
-
-{{% capture whatsnext %}}
-
-If you would like to write a concept page, see
-[Using Page Templates](/docs/home/contribute/page-templates/)
-for information about the concept page type and the concept template.
-
-{{% /capture %}}
+{{< image src="/images/kubernetes-horizontal-color.png" width="400" >}}

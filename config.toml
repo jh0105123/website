@@ -1,5 +1,5 @@
 baseURL = "https://kubernetes.io"
-title = "Kubernetes"
+title = "mirero"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -83,12 +83,12 @@ announcement = false
 # announcement_message is only displayed when announcement = true; update with your specific message
 announcement_message = "The Kubernetes Documentation team would like your feedback!  Please take a <a href='https://www.surveymonkey.com/r/8R237FN' target='_blank'>short survey</a> so we can improve the Kubernetes online documentation."
 
-[[params.versions]]
-fullversion = "v0.17.0"
-version = "v0.17"
-githubbranch = "v0.17.0"
-docsbranch = "release-1.17"
-url = "https://kubernetes.io"
+# [[params.versions]]
+# fullversion = "v0.17.0"
+# version = "v0.17"
+# githubbranch = "v0.17.0"
+# docsbranch = "release-1.17"
+# url = "https://kubernetes.io"
 
 [params.pushAssets]
 css = [
@@ -101,39 +101,39 @@ js = [
   "script"
 ]
 
-[[params.versions]]
-fullversion = "v1.16.3"
-version = "v1.16"
-githubbranch = "v1.16.3"
-docsbranch = "release-1.16"
-url = "https://v1-16.docs.kubernetes.io"
+# [[params.versions]]
+# fullversion = "v1.16.3"
+# version = "v1.16"
+# githubbranch = "v1.16.3"
+# docsbranch = "release-1.16"
+# url = "https://v1-16.docs.kubernetes.io"
 
-[[params.versions]]
-fullversion = "v1.15.6"
-version = "v1.15"
-githubbranch = "v1.15.6"
-docsbranch = "release-1.15"
-url = "https://v1-15.docs.kubernetes.io"
+# [[params.versions]]
+# fullversion = "v1.15.6"
+# version = "v1.15"
+# githubbranch = "v1.15.6"
+# docsbranch = "release-1.15"
+# url = "https://v1-15.docs.kubernetes.io"
 
-[[params.versions]]
-fullversion = "v1.14.9"
-version = "v1.14"
-githubbranch = "v1.14.9"
-docsbranch = "release-1.14"
-url = "https://v1-14.docs.kubernetes.io"
+# [[params.versions]]
+# fullversion = "v1.14.9"
+# version = "v1.14"
+# githubbranch = "v1.14.9"
+# docsbranch = "release-1.14"
+# url = "https://v1-14.docs.kubernetes.io"
 
-[[params.versions]]
-fullversion = "v1.13.12"
-version = "v1.13"
-githubbranch = "v1.13.12"
-docsbranch = "release-1.13"
-url = "https://v1-13.docs.kubernetes.io"
+# [[params.versions]]
+# fullversion = "v1.13.12"
+# version = "v1.13"
+# githubbranch = "v1.13.12"
+# docsbranch = "release-1.13"
+# url = "https://v1-13.docs.kubernetes.io"
 
 # Language definitions.
 
 [languages]
 [languages.en]
-title = "Kubernetes"
+title = "역량 강화 시스템"
 description = "Production-Grade Container Orchestration"
 languageName ="English"
 # Weight used for sorting.

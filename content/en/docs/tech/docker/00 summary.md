@@ -11,7 +11,6 @@ weight: 10
 {{% /capture %}}
 
 {{% capture body %}}
-
 ## Docker Image
 
 ![Summary](/images/docs/Docker/chapter0/1.JPG)

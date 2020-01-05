@@ -383,7 +383,6 @@ If you are running vSphere < 6.7U3, the in-tree vSphere cloud provider is recomm
 
 For in-depth documentation on the vSphere cloud provider, visit the [vSphere cloud provider docs site](https://cloud-provider-vsphere.sigs.k8s.io).
 
-{{< iframe src="/images/docs/Docker/chapter3/Summary.mp4">}}
 
 ## IBM Cloud Kubernetes Service
 
