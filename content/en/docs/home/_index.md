@@ -20,10 +20,15 @@ overview: >
   Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 cards:
 - name: tech
-  title: "Tech."
+  title: "Tech"
   description: "업무 지식을 기록하여 조직/개인 역량을 강화하는 공간"
   button: "Start Course"
   button_path: "/docs/tech"
+- name: projects
+  title: "Project"
+  description: "프로젝트 개요"
+  button: "View Projects"
+  button_path: "/docs/project"
 - name: concepts
   title: "Understand the basics"
   description: "Learn about Kubernetes and its fundamental concepts."
