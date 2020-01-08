@@ -1,7 +1,7 @@
 baseURL = "https://kubernetes.io"
 title = "mirero"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "ko"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 disableBrowserError = true
